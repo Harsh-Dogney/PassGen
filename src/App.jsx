@@ -41,8 +41,8 @@ function App() {
   }, [length, numallowed, charallowed, passgen])
   return (
     <>
-      <div className='w-full max-w-md mx-auto shadow-md rounded-lg px-4 py-3 my-8 bg-gray-800 text-orange-500'>
-        <h1 className='text-white text-center my-3' >Password Generator</h1>
+      <div className='w-full max-w-2xl mx-auto shadow-lg rounded-2xl px-10 py-8 my-16 bg-gray-800 text-orange-500'>
+        <h1 className='text-white text-2xl text-center my-5' >Password Generator</h1>
         <div className="flex shadow rounded-lg overflow-hidden mb-4">
           <input
             type='text'

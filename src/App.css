@@ -40,3 +40,12 @@
 .read-the-docs {
   color: #888;
 }
+body {
+  background-image: url('../image/pexels-markusspiske-1089438.jpg'); /* path to your image */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  margin: 0;
+  font-family: sans-serif;
+}
